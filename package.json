@@ -1,0 +1,15 @@
+{
+  "name": "codenamer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/moby-name.js --bundle --format=esm --outfile=dist/moby-name.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
+}
