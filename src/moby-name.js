@@ -8,7 +8,7 @@ class MobyName extends HTMLElement {
   generateName() {
     const left = mobyDict.left[Math.floor(Math.random() * mobyDict.left.length)];
     const right = mobyDict.right[Math.floor(Math.random() * mobyDict.right.length)];
-    this.textContent = `${left}-${right}`;
+    this.textContent = `${left}-${right}`.toUpperCase();
   }
 }
 
